@@ -8,14 +8,22 @@ const config = require('./config');
 
 const bot = new Bot(config.bot);
 
-const adminGroup = config.targetGroup;
-//{
-//  type: 'group',
-//  id: 587448205,
-//  key: 'g587448205',
+const adminGroup = {
+  type: 'group',
+  id: //{
+ // type: 'group',
+  //id: 162263878,
+  //key: 'g162263878',
 //};
+,
+  key: 'g162263878',
+};
 
-
+//{
+ // type: 'group',
+  //id: 162263878,
+  //key: 'g162263878',
+//};
 
 const groupIDs = config.IDs;
 
